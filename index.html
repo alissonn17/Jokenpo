@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <script type="module" src="src/script.js" defer></script>
+
+
+    <title>Jokenpo</title>
+</head>
+<body>
+    <h1>Jokenpo</h1>
+    <!-- Seção do Jogo -->
+    <section id="jogo">
+
+        <!-- Jogadas -->
+        <div id="jogada">
+            <label>
+                <input id="pedra" type="checkbox" name="jogada" value="pedra">
+                Pedra
+            </label>
+            <label>
+                <input id="papel" type="checkbox" name="jogada" value="papel">
+                Papel
+            </label>
+            <label>
+                <input id="tesoura" type="checkbox" name="jogada" value="tesoura">
+                Tesoura
+            </label>
+        </div>
+
+        <!-- Botão de Jogar -->
+        <button id="jogar">Jogar</button>
+        <button id="reiniciar">Reiniciar</button>
+
+        <div id="final">
+            <p id="jogador"></p>
+            <p id="computador"></p>
+            <p id="resultado"></p>
+        </div>
+
+    </section>
+
+</body>
+</html>
